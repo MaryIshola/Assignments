@@ -1,0 +1,105 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: #202327;
+}
+.mainc{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+}
+.cmain{
+  flex-direction: column;
+    width: 80%;
+    height: 80%;
+  margin-top: 8%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(4px);
+    background-color: rgba(0,0,0, 0.5);
+    box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
+    border: 2px rgba(255,255,255,0.4) solid;
+    border-bottom: 2px rgba(40,40,40,0.35) solid;
+    border-right: 2px rgba(40,40,40,0.35) solid;
+}
+.cbody{
+  background-image: url('wave.png');
+  background-repeat: no-repeat;
+  background-size:auto;
+  height: 100%;
+  background-position: left;
+}
+.main-contact {
+  width: 100%;
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: -70px;
+}
+.contact{
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.cimage{
+  width: 50%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 0;
+}
+.cimage img{
+  height: 50%;
+}
+
+.cmessage{
+  width: 50%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 0;
+}
+form{
+  width: 50%;
+}
+.inputControl{
+  width: 100%;
+}
+input{
+  border-radius: 20px;
+  border: 1px #c2c2c2 solid;
+  width: 100%;
+  padding: 10px 8px;
+  margin-bottom: 15px;
+}
+textarea{
+  border-radius: 15px;
+  border: 1px #c2c2c2 solid;
+  width: 100%;
+  padding: 10px 8px;
+  margin-bottom: 15px;
+}
+.inputControl button{
+    border-radius: 20px;
+  color: white;
+  border: 1px #c2c2c2 solid;
+  width: 100%;
+  padding: 10px 15px;
+  background: rgb(0,16,38);
+background: linear-gradient(90deg, rgba(0,16,38,1) 0%, rgba(55,0,166,1) 38%, rgba(180,0,213,1) 100%);
+}
+.buttonControl{
+  width: 26.5%;
+  position: absolute;
+}
+.ctitle{
+  color: white;
+  font-size: 20px;
+}
