@@ -1,0 +1,44 @@
+header{
+  background-color:#202327;
+  padding: 14px 10px;
+  height: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999999999;
+}
+a{
+    text-decoration: none;
+  color: white;
+    margin: 1% !important;
+  padding: 10px;
+}
+main{
+  margin-top: 45px;
+}
+nav a:hover{
+  background-color: white;
+  color: black !important;
+}
+.content{
+  padding: 0 10%;
+}
+.heropage{
+  background-image: url('./Assets/heroimage.png');
+  height: 300px;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: bottom;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.heropage span{
+  font-size: 25px;
+  color: white;
+  background-color: #202327;
+  padding: 10px;
+  border-radius: 8px;
+}

@@ -1,0 +1,44 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+*{
+  color: white;
+}
+#services{
+ display: block;
+  padding: 15px 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+li{
+  border-radius: 20px;
+background: #534a78;
+box-shadow:  2px 2px 10px #473f66,
+             -2px -2px 10px #5f558a;
+  padding: 30px;
+  margin: 10px;
+  cursor: pointer;
+}
+li:hover{
+  color: black;
+background: #d26a6d;
+box-shadow:  2px 2px 10px #b35a5d,
+             -2px -2px 10px #f27a7d;
+}
+.hero page h1{
+    color: green;
+}
+body{
+    width: 100%;
+    background-color: #202327;
+    margin-top: 0;
+}
+footer{
+    color:green;
+}
